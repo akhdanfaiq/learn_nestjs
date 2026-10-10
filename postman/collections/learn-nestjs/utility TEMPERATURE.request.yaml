@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/utility/temperature
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "value": 25,
+      "from": "CELSIUS",
+      "to": "FAHRENHEIT"
+    }
+order: 1773659727147667

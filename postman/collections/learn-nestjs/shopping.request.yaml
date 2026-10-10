@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/checkout/discount?member=true&coupon=HEMAT10
+method: POST
+queryParams:
+  member: "true"
+  coupon: HEMAT10
+body:
+  type: json
+  content: |-
+    {
+        "items":[
+            {"name": "Choki", "price": 1000, "qty": 4},
+            {"name": "Momogi", "price": 20000, "qty": 2},
+            {"name": "Beng Beng", "price": 3000, "qty": 1}
+        ]
+    }
+order: 4494975411837982

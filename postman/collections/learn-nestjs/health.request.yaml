@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/health/BMI-Status
+method: POST
+order: 4065804110852544

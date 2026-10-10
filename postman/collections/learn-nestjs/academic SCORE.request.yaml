@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3000/academic/scoreGrade
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "score": 10
+
+    }
+order: 1791272470267

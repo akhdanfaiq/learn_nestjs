@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/shop/discount
+method: POST
+order: 4491360018356263

@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/convert/length/:meters
+method: GET
+pathVariables:
+  meters: "5000"
+order: 4494092393177611

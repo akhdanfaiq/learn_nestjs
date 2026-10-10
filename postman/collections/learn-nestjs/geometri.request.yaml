@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/geometry/circle-area
+method: POST
+order: 2602481532398071
